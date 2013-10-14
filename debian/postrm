@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[ -e /etc/php5/conf.d/jsmin.ini ] && rm -f /etc/php5/conf.d/jsmin.ini
+
+exit 0
+

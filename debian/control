@@ -1,0 +1,13 @@
+Source: php5-jsmin
+Section: php
+Priority: optional
+Maintainer: Jordi Clariana <jordiclariana@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), php5-dev
+Standards-Version: 3.8.4
+Homepage: https://github.com/jordiclariana/php-jsmin
+
+Package: php5-jsmin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: PHP5 JSmin extension
+ PHP5 JSmin extension

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[ -d /etc/php5/conf.d ] && echo extension=jsmin.so > /etc/php5/conf.d/jsmin.ini
+
+exit 0
+
